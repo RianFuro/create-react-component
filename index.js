@@ -47,6 +47,10 @@ require('base-create')({
     { 
       path: 'src/Component.tsx',
       contents: fs.readFileSync(__dirname + '/files/Component.tsx', 'utf-8')
+    },
+    {
+      path: '.npmignore',
+      contents: fs.readFileSync(__dirname + '/files/npmignore', 'utf-8')
     }
   ]
 })
